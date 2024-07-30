@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    color: white;
+
+}
+
+#landing-page{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
