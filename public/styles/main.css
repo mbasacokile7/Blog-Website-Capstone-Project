@@ -8,4 +8,30 @@ body{
     display: flex;
     justify-content: center;
     text-align: justify;
+    text-align: justify;
+    margin:50px 0 150px 0;
+    padding: 0 50px 0 50px;  
+    align-items: center !important; 
+}
+
+#landing-main-heading{
+    font-family: Roboto Mono;
+    margin-bottom: 30px;
+}
+
+#landing-heading{
+    margin-bottom: 30px;
+}
+
+#landing-text{
+    font-family: Montserrat;
+}
+
+.landing-image{
+    height: 400px ;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
