@@ -12,7 +12,7 @@ app.use(express.static("public"));
 
 // GET Request to render the landing page
 app.get("/", (req, res) =>{
-    res.render("index.ejs");
+    res.render("create.ejs");
 })
 
 

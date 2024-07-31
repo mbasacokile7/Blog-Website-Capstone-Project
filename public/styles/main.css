@@ -87,3 +87,54 @@ footer {
     flex-wrap: wrap;
     /*gap: 2em;*/
 }
+
+/* ------------------------ Create Section -------------------------- */
+#create-section{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    text-align: justify;
+    margin:50px 0 150px 0;
+    padding: 0 50px 0 50px;  
+    align-items: center !important; 
+}
+
+.create-content{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.article-title{
+    border-radius: 15px;
+    padding: 10px 5px 10px 5px;
+    border: none;
+}
+
+/*Text for User article*/
+.article-content{
+    border-radius: 18px;
+    padding: 10px 10px 10px 10px;
+    border: none;
+
+}
+.form-text{
+    font-family: Montserrat;
+    color: white;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+/* ------------------------ TODO ------------------------ */
+/* Media Queries to adjust the width of the article title area */
+/* Media Queries to adjust the width of where user writes their post/article */
+
+
+
+
+
+/* --------------------- Articles Page ----------------------*/
+/* Add a card effect for articles */
+.card {
+    padding: 20px;
+    margin-top: 20px;
+ }
+ 
