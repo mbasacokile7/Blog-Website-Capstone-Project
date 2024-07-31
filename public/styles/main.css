@@ -4,6 +4,20 @@ body{
 
 }
 
+/* ----------------------- NAVBAR --------------------------*/
+.navbar-brand{
+    font-family: Roboto Mono !important;
+    font-size: 25px;
+}
+
+.nav-link{
+    font-family: Roboto Mono;
+    font-size: 19px;
+    padding: 0 20px 0 20px !important;
+}
+
+
+
 #landing-page{
     display: flex;
     justify-content: center;
@@ -33,5 +47,43 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
 
+.btn{
+    padding: 10px 40px 10px 40px;
+}
+
+#read-button{
+    margin-right: 15px !important;
+}
+
+/* ------ Footer Edits ------*/
+footer {
+    background: #333;
+    color: #fff;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.footer-heading{
+    font-family: Roboto Mono;
+    font-size: 20px;
+}
+
+.social-icon{
+    margin: 50px 20px 50px 20px
+}
+
+.social-icon:hover{
+    color:#B59410;
+
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /*gap: 2em;*/
 }
