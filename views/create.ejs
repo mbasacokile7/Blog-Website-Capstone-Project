@@ -4,12 +4,12 @@
 <h3 class="create-content">Create a thought-provoking and engaging article for the platform.</h3>
 <section id="create-section">
     <!-- A Form for users to write and submit articles-->
-<form>
+<form action="/create" method="POST">
     <label for="title" class="form-text">Blog Article Title: </label><br>
     <input name="title" type="text" class="article-title" placeholder="Blog-Article-Title" size="98" /><br><br>
     <label for="article-content" class="form-text">Write your Article Below</label><br>
-    <textarea rows="20" cols="100" name="article-content" class="article-content" placeholder="Write your thoughts here:"></textarea><br><br>
-    <button id="write-button" type="submit" class="btn btn-lg btn-dark learn-more-btn">Submit</button>
+    <textarea rows="20" cols="100" name="content" class="article-content" placeholder="Write your thoughts here:"></textarea><br><br>
+    <button id="write-button" type="submit" class="btn btn-lg btn-dark learn-more-btn" onclick="window.location.href='/create'">Submit</button>
 </form>
 
 </section>

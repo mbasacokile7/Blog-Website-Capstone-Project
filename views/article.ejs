@@ -1,12 +1,15 @@
 <!--Inclue the Header and Nav Bar to the Landing Page-->
 <%- include("partials/header.ejs"); %>
-<div>
+<div class="card">
     <!-- Add the Article  Title-->
-    <h2><!--<%= TITLE HEADING %> --></h2>
+    <h2><%= locals.articleTitle %></h2>
+
     <!-- Add the Article  Date-->
-    <h5><!-- <%=Dec 7, 2017 %> --></h5>
+    <h5><%= locals.todayDate %></h5>
+
     <!-- Add the Article  Content-->
-    <p><!-- <%= articleContent %>   --></p>
+    <p><%= locals.articleContent %></p>
+    <button id="read-button" type="button" class="btn btn-lg btn-dark learn-more-btn" onclick="window.location.href='/read'">Read</button>
 </div>
 <!-- General layout for Previous Posts-->
 <div class="card">

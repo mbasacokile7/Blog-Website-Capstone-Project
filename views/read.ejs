@@ -1,15 +1,18 @@
 <!--Inclue the Header and Nav Bar to the Landing Page-->
 <%- include("partials/header.ejs"); %>
-<!-- Display the title of Article-->
-<!-- <%= articleArticle %> -->
-<!-- Display the title of Article-->
-<!--  <%= dateOfArticle %> --> 
 
-<!-- Display the article body-->
-<!--  <%= articleContent %> -->
+<div>
+    <!-- Display the title of Article-->
+    <h1><%= locals.articleTitle %></h1>
+
+    <!-- Display the title of Article-->
+    <h5><%= locals.dateOfArticle %></h5>  
+
+    <!-- Display the article body-->
+    <p><%= locals.articleContent %></p>
 
 
-
+</div>
 
 <!--Inclue the footer to the Landing Page--code -->
 <%- include("partials/footer.ejs")%>
