@@ -1,7 +1,7 @@
 # Blog Webiste Capstone Project
 ------------------------------------------------
 ## Aim
------------------------------------------------
+------------------------------------------------
 The purpose of the project was to consolidate concepts related to Web Developement Backend.
 This project a wide array of tools, that can be used for Backend development. The concepts used were gettiong to NodeJS, and the Node Package Manager(NPM)
 Understand the use of npm packages, and how to install them. Understanfing the role that middleware plays and how it can be applied, and also templating and partials.
