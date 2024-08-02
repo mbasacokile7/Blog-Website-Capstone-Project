@@ -6,6 +6,8 @@ The purpose of the project was to consolidate concepts related to Web Developeme
 This project a wide array of tools, that can be used for Backend development. The concepts used were gettiong to NodeJS, and the Node Package Manager(NPM)
 Understand the use of npm packages, and how to install them. Understanfing the role that middleware plays and how it can be applied, and also templating and partials.
 This Capstone project is from the London App Brewery Web Development on Udemy
+
+
 ---------------------------------------------
 ## Tools
 --------------------------------------------
@@ -15,6 +17,8 @@ The following tools topics were covered and applied in a hands-on approach
 3. Middleware: The body-parser and express-session middlewares were used to capture from input fields (body-parser), and express-session was used to use the captured data between routes.
 4. EJS: Used to dynamically generate web-page content, using templateing. This project rreinforced, the topics learned in the course.
 5. Github (version-Control): This project was also use a oppurtunity to polish up my github knowledge and use
+
+   
 ----------------------------------------------
 ## Functionality
 --------------------------------------------
@@ -24,11 +28,13 @@ The web app has three different pages.
 3. *Create Page*: This page has 2 input areas for the user to create an article, the data from here is captured used body-parser, and the data is also stored in an express-session, to be used in another route.
    The submit button, will render the article page with the first card being populated with the user data.
 4. *Reading Page*: This is a page where the user can read their work, this page can only be accesed, once an article has been written and their is a read button, available on the articles page to get a full view of the article
+
+5. 
 --------------------------------------------
 ## Front End Display of the Landing Page
 --------------------------------------------------
   ### Landing Page
- ![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-Landing-Page.png)
+ ![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-Landing-Page.png) 
 
  ------------------------------------------------------------------------------------------------------------------------
 ### Writing Page
@@ -38,4 +44,4 @@ The web app has three different pages.
 -----------------------------------------------------------------
 ### Reading Page
 ----------------------------------------------------------------------------------------------
-![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-reading-Page.png)
+![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-reading-page.png)
