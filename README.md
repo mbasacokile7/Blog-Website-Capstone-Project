@@ -41,15 +41,15 @@ The web app has three different pages.
   ### Landing Page
 
 ----------------------------------------------------------------------------------------------
- ![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-Landing-Page.png?raw=true) 
+ ![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog%20Website%20Landing%20Page.png) 
 
 ------------------------------------------------------------------------------------------------------------------------
 ### Writing Page
 
 ------------------------------------------------------------
-![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-Writing-Page.png?raw=true)
+![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog%20Site%20Writing%20Page.png)
 
 -----------------------------------------------------------------
 ### Reading Page
 ----------------------------------------------------------------------------------------------
-![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-reading-page.png?raw=true)
+![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog%20Website%20reading%20page.png)
