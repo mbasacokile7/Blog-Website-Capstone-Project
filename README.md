@@ -28,13 +28,14 @@ The web app has three different pages.
 ## Front End Display of the Landing Page
 --------------------------------------------------
   ### Landing Page
- ![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-Landing-Page.PNG)
+ ![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-Landing-Page.png)
 
  ------------------------------------------------------------------------------------------------------------------------
 ### Writing Page
 ------------------------------------------------------------
-![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-Writing-Page.PNG)
+![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-Writing-Page.png)
+
 -----------------------------------------------------------------
 ### Reading Page
 ----------------------------------------------------------------------------------------------
-![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-reading-Page.PNG)
+![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-reading-Page.png)
