@@ -1,12 +1,19 @@
 //Import NPM Packages
 import express from "express";
 import bodyParser from "body-parser";
+import session from "express-session";
 
 //Create an express object to initialise the Server
 const app = express();
 // Allow Express to use the body-parser middleware
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
+app.use(session({
+    secret: 'secret',
+    resave: false,
+    saveUninitialized: true,
+    cookie: { maxAge: 60000} 
+}));
 // Define a variable to store variable to store 
 let d = new Date();
 let todayDate = d.getMonth() + " " +  d.getDate() + " " + d.getFullYear();
@@ -25,22 +32,31 @@ app.get("/create", (req, res) =>{
 });
 
 //GET Request to get the Articles Page
-app.get("/article", (req, res) =>{
+app.get("/read", (req, res) =>{
     res.render("article.ejs");
 });
 
-//GET Requst to render the Read Page
+/* GET Requst to render the Read Page
 app.get("/read", (req, res)=>{
     res.render("read.ejs");
-});
+}); */
 
-let data = {};
+let data = null;
 
 // POST REQUEST to submit user data into the Articles Page(from Create Page) and also from Articles page to Read Page
 app.post("/create", (req, res)=>{
-    data = req.body;
-    res.render("article.ejs", data);
+    req.session.data = req.body ;
+    data = req.session.data;
+    //console.log(data);
+    res.render("article.ejs", {articleTitle: data.title, todayDate: todayDate, articleContent:data.content});
     
+});
+
+//Get Request to populate Reading Page
+app.get("/article", (req, res) =>{
+    let data = req.session.data;
+    console.log(data);
+    res.render("read.ejs", {articleTitle:data.title, todayDate: todayDate ,articleContent:data.content});
 });
 
 
@@ -49,3 +65,10 @@ const port = 3000;
 app.listen(port, (req, res) =>{
     console.log(`The server is running on Port: ${port}`);
 });
+
+//TODO:
+//When the user has just got to the page and they press READ button
+//On Navbar or the landing page "Read" button. 
+//They will be directed to the articles page.
+//The page should show only the gegenral Lorem Ipsum articles we have. 
+//Only after they create an article in Create page, then they can view the full page.
