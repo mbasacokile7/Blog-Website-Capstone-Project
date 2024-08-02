@@ -1,6 +1,8 @@
 # Blog Webiste Capstone Project
+
 ------------------------------------------------
 ## Aim
+
 ------------------------------------------------
 The purpose of the project was to consolidate concepts related to Web Developement Backend.
 This project a wide array of tools, that can be used for Backend development. The concepts used were gettiong to NodeJS, and the Node Package Manager(NPM)
@@ -10,6 +12,7 @@ This Capstone project is from the London App Brewery Web Development on Udemy
 
 ---------------------------------------------
 ## Tools
+
 --------------------------------------------
 The following tools topics were covered and applied in a hands-on approach
 1. NodeJS: Explore, and understand the workings of NodaJS as an runtime environment, which gives us theability to run JS on our local machines.
@@ -21,6 +24,7 @@ The following tools topics were covered and applied in a hands-on approach
    
 ----------------------------------------------
 ## Functionality
+
 --------------------------------------------
 The web app has three different pages.
 1. *landing Page*: Thisi is the endpoint of the home route and has soe basic copy, in addition to, two buttons, that p[rompt the user to read an article or write one.
@@ -32,16 +36,20 @@ The web app has three different pages.
 5. 
 --------------------------------------------
 ## Front End Display of the Landing Page
+
 --------------------------------------------------
   ### Landing Page
- ![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-Landing-Page.png) 
 
- ------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+ ![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-Landing-Page.png?raw=true) 
+
+------------------------------------------------------------------------------------------------------------------------
 ### Writing Page
+
 ------------------------------------------------------------
-![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-Writing-Page.png)
+![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-Writing-Page.png?raw=true)
 
 -----------------------------------------------------------------
 ### Reading Page
 ----------------------------------------------------------------------------------------------
-![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-reading-page.png)
+![alt text](https://github.com/mbasacokile7/Blog-Website-Capstone-Project/blob/master/Blog-Website-reading-page.png?raw=true)
