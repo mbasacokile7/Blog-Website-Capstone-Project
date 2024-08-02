@@ -52,7 +52,7 @@ app.post("/create", (req, res)=>{
     req.session.data = req.body ;
     data = req.session.data;
     //console.log(data);
-    res.render("article.ejs", {articleTitle: data.title, todayDate: todayDate, articleContent:data.content});
+    res.render("article.ejs", {articleTitle: data.title, todayDate: todayDate, articleContent:data.content, createArticle:createArticle});
     
 });
 
@@ -62,7 +62,7 @@ app.get("/article", (req, res) =>{
     createArticle = true;
     let data = req.session.data;
     //console.log(data);
-    res.render("read.ejs", {articleTitle:data.title, todayDate: todayDate ,articleContent:data.content});
+    res.render("read.ejs", {articleTitle:data.title, todayDate: todayDate ,articleContent:data.content, createArticle:createArticle});
 });
 
 
