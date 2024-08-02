@@ -22,7 +22,6 @@ body{
     display: flex;
     justify-content: center;
     text-align: justify;
-    text-align: justify;
     margin:50px 0 150px 0;
     padding: 0 50px 0 50px;  
     align-items: center !important; 
@@ -199,3 +198,14 @@ footer {
     margin-top: 20px;
  }
  
+/* ----------------------Reading Page ----------------------*/
+.reading-section{
+    justify-content: center;
+    text-align: justify;
+    padding: 0 50px 0 50px;  
+    align-items: center !important;
+    font-family: Montserrat;
+    margin: 100px 30px 500px 30px;
+
+
+}

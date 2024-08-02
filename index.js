@@ -17,22 +17,25 @@ app.use(session({
 // Define a variable to store variable to store 
 let d = new Date();
 let todayDate = d.getMonth() + " " +  d.getDate() + " " + d.getFullYear();
-
+let createArticle = false;
 //-------------------------------HTTP Requests and Routing-------------------------------//
 
 // GET Request to render the landing page
 app.get("/", (req, res) =>{
+    createArticle = false;
     res.render("index.ejs");
 });
 
 //Get request to route to the Create Page
 app.get("/create", (req, res) =>{
+    createArticle = false;
     res.render("create.ejs");
 
 });
 
 //GET Request to get the Articles Page
 app.get("/read", (req, res) =>{
+    createArticle = false;
     res.render("article.ejs");
 });
 
@@ -45,6 +48,7 @@ let data = null;
 
 // POST REQUEST to submit user data into the Articles Page(from Create Page) and also from Articles page to Read Page
 app.post("/create", (req, res)=>{
+    createArticle = true;
     req.session.data = req.body ;
     data = req.session.data;
     //console.log(data);
@@ -53,9 +57,11 @@ app.post("/create", (req, res)=>{
 });
 
 //Get Request to populate Reading Page
+
 app.get("/article", (req, res) =>{
+    createArticle = true;
     let data = req.session.data;
-    console.log(data);
+    //console.log(data);
     res.render("read.ejs", {articleTitle:data.title, todayDate: todayDate ,articleContent:data.content});
 });
 

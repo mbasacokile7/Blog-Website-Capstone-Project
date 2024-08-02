@@ -1,6 +1,10 @@
 <!--Inclue the Header and Nav Bar to the Landing Page-->
 <%- include("partials/header.ejs"); %>
-<div class="card">
+
+<!-- Add some Javascript to find out if the user has created a post-->
+
+<% if (locals.createArticle){ %>
+  <div class="card">
     <!-- Add the Article  Title-->
     <h2><%= locals.articleTitle %></h2>
 
@@ -11,6 +15,15 @@
     <p><%= locals.articleContent %></p>
     <button id="read-button" type="button" class="btn btn-lg btn-dark learn-more-btn" onclick="window.location.href='/article'">Read</button>
 </div>
+<% } else { %>
+  <div class="card">
+    <h2>Go ahead and write your first blog post</h2>
+    <h5>Navigate to the Write page on the Navigation Bar or button below</h5>
+    <p>We look forward to hearing your thoughts</p>
+    <button id="write-button" type="button" class="btn btn-lg btn-dark learn-more-btn" onclick="window.location.href='/create'">Write</button>
+  </div>
+<% } %>
+
 <!-- General layout for Previous Posts-->
 <div class="card">
     <h2>TITLE HEADING</h2>

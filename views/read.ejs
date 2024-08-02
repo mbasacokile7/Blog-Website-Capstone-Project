@@ -1,17 +1,16 @@
 <!--Inclue the Header and Nav Bar to the Landing Page-->
 <%- include("partials/header.ejs"); %>
 
-<div>
-    <!-- Display the title of Article-->
-    <h1><%= locals.articleTitle %></h1>
+<div class="reading-section">
+    <!-- Add the Article  Title-->
+    <h2><%= locals.articleTitle %></h2>
 
-    <!-- Display the title of Article-->
-    <h5><%= locals.dateOfArticle %></h5>  
+    <!-- Add the Article  Date-->
+    <h5><%= locals.todayDate %></h5>
 
-    <!-- Display the article body-->
+    <!-- Add the Article  Content-->
     <p><%= locals.articleContent %></p>
-
-
+    <button id="read-button" type="button" class="btn btn-lg btn-dark learn-more-btn" onclick="window.location.href='/article'">Read</button>
 </div>
 
 <!--Inclue the footer to the Landing Page--code -->
