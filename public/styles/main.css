@@ -123,11 +123,72 @@ footer {
     margin-bottom: 12px;
     font-size: 18px;
 }
-/* ------------------------ TODO ------------------------ */
-/* Media Queries to adjust the width of the article title area */
-/* Media Queries to adjust the width of where user writes their post/article */
 
 
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:320px)  {
+    textarea {
+        height: 350px;
+        width: 300px;
+    }
+
+    input{
+        width: 300px;
+    }
+
+ }
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width:961px)  { 
+    textarea {
+        height: 400px;
+        width: 800px;
+    }
+
+    input{
+        width: 800px;
+    }
+   
+}
+
+ /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width:961px)  { 
+    textarea {
+        height: 400px;
+        width: 800px;
+    }
+
+    input{
+        width: 800px;
+    }
+    
+   
+}
+
+  /* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px) {
+    textarea {
+        height: 400px;
+        width: 800px;
+    }
+
+    input{
+        width: 800px;
+    }
+}
+
+/* hi-res laptops and desktops */ 
+@media (min-width:1281px) {
+    textarea {
+        height: 500px;
+        width: 1000px;
+    }
+
+    input{
+        width: 1000px;
+    }
+
+}
 
 
 
